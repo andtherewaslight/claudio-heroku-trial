@@ -7,9 +7,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import ipywidgets as widget
+from IPython.display import display
 
 
 #get_ipython().run_line_magic('matplotlib', 'widget')
+
 slider_f = widget.FloatSlider(value = 5., min= 0., max = 10., step = 0.1, description = 'Frequency')
 display(slider_f)
 fig,ax = plt.subplots()
